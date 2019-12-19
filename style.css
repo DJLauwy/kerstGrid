@@ -1,0 +1,68 @@
+body{
+	margin:0;
+	background-color:#222;
+	background: url('img/bg.jpg');
+	background-size: cover;
+}
+
+main{
+	background-color: blue;
+	background: url('img/bg2.jpg');
+	background-size: cover;
+	display: grid;
+	margin: 3% auto 3% auto;
+	padding:100px;
+	width:90%;
+	grid-template-columns: auto auto auto;
+	grid-gap: 30px;
+	border-radius:100px;
+}
+
+.grid-item{
+	/*border:1px solid #000;*/
+	background-color: #fff;
+	margin:auto auto;
+	text-align: center;
+	height:490px;
+	width:100%;
+	overflow: hidden;
+}
+
+#item1, #item2, #item3{
+	height:100px;
+	background-color: lightblue;
+}
+
+h1{
+	text-align: right;
+	margin-right:20px;
+	font-size:25pt;
+}
+p{
+	text-align: left;
+	margin-left:20px;
+	font-size:15pt;
+}
+
+h1, p{
+	font-family: 'Mountains of Christmas', cursive;
+	color:yellow;
+	text-shadow: 2px 2px #000;
+}
+
+#item4{
+	height:1020px;
+	grid-row-start: 2;
+	grid-row-end: 4;
+}
+
+#item11{
+	height:1020px;
+	grid-row-start: 4;
+	grid-column-start: 3; 
+	grid-row-end: 6;
+}
+
+img{
+	width:100%;
+}
